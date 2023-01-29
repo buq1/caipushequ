@@ -1,0 +1,50 @@
+﻿.logo{
+    margin-left: 20px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    width: 300px;
+    color: #fff;
+    text-align: center;
+    font-size: 36px;
+    line-height: 70px;
+    float:left;
+}
+
+.login_window_right{
+	margin-left:100px;
+	margin-top:100px;
+	width:395px;
+	height:260px;
+	float:left;
+	font-family:微软雅黑;
+	border:1px solid #D5D5D5;
+	padding:5px;
+	background:#ffffff;
+	}
+.login_window_left{
+	margin-left:100px;
+	margin-top:100px;
+	width:270px;
+	height:320px;
+	float:left;
+	}
+.title{
+	width:270px;
+	height:38px;
+	background-image:url(../images/login.png);
+	margin-bottom:5px;
+	background-color:red;
+	border:1px solid #D5D5D5;
+	}
+.click{
+	width:270px;
+	background-color:#ffffff;
+	padding-top:3px;
+	padding-bottom:16px;
+	border:1px solid #D5D5D5;
+	}
+input{
+	width:100%;
+	border:1px solid #DADADA;
+	height:25px;
+	}

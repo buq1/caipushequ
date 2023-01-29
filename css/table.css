@@ -1,0 +1,25 @@
+table{
+	border:1px solid #D5D5D5;
+	border-collapse:collapse;
+	text-align:center;
+	width:100%;
+	}
+table a:link{
+	color:#1f3a87;
+	}
+table thead{
+	background: url(../images/menu_body.png);
+	}
+table th{
+	height:30px;
+	text-align:center;
+	}
+table tr{
+	border:0px;
+	border-collapse:collapse;
+	}
+table tr td{
+	border-top:1px solid #D5D5D5;
+	border-bottom:1px solid #D5D5D5;
+	border-collapse:collapse;
+	}

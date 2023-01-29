@@ -1,0 +1,238 @@
+﻿/*左侧菜单和快速链接放置的大层*/
+.left{
+	width:250px;
+	float:left;
+	/*margin-top:-17px;*/
+	}
+
+/*菜单的主体*/
+.menu_body{
+	width:200px;
+	margin-top:15px;
+	margin-left:10px;
+	margin-bottom:30px;
+	/*float:left;*/
+	min-height:200px;
+	_height:expression((document.documentElement.clientHeight||document.body.clientHeight)>200?"200px":""); 
+	}
+/*收缩菜单*/
+.v{
+	float:right;
+	width:14px;
+	height:14px;
+	overflow:hidden;
+	background:url(../images/vicon.png) no-repeat;
+	display:inline-block;
+	margin-top:-5px;
+	margin-bottom:-5px;
+	}
+.v01{
+	background-position:0 0;
+	}
+.v02{
+	background-position:0 -16px;
+	}
+.vtitle{
+	height:35px;
+	background: url(../images/menu_body.png);
+	line-height:35px;
+	border:1px solid #D5D5D5;
+	margin-top:2px;
+	padding-left:25px;
+	font-size:15px;
+	color:#4d4d4d;
+	font-family:"\5FAE\8F6F\96C5\9ED1";
+	cursor:pointer;
+	}
+.vtitle em{
+	margin:10px 10px 0 0;
+	}
+.vcon{
+	margin:0px;
+	border:1px solid #D5D5D5;
+	border-top:0px;
+	background:#fff;
+	}
+.vconlist{
+	margin:0px;
+	}
+.vconlist li a{
+	margin-left:-10px;
+	height:30px;
+	line-height:30px;
+	display:block;
+	font-size:14px;
+	color:#866f67;
+	font-family:"\5FAE\8F6F\96C5\9ED1";
+	}
+.vconlist li.select a,.vconlist li a:hover{
+	color:#ed4948;
+	text-decoration:none;
+	}
+/*友情链接*/
+.link{
+	width:200px;
+	height:150px;
+	background:#fff;
+	margin-top:-10px;
+	margin-left:10px;
+	margin-bottom:20px;
+	float:left;
+	border:1px solid #D5D5D5;
+	}
+.link_title{
+	height:30px;
+	width:150px;
+	margin-left:15px;
+	margin-top:20px;
+	border:0px;
+	border-bottom:1px dashed #D5D5D5;
+	text-align:center;
+	}
+.link_text{
+	margin-top:2px;
+	border-top:1px dashed #D5D5D5;
+	width:150px;
+	margin-left:15px;
+	text-align:center;
+	}	
+.link_text p{
+	float:left;
+	width:75px;
+	margin-bottom:5px;	
+	}
+	
+	
+/*右侧内容的主体框架*/
+.main_body{
+	margin-right:10px;
+	margin-top:15px;
+	margin-bottom:15px;
+	margin-left:20px;
+	float:left;
+	width:1000px;
+	}
+/*组建类型一*/
+.part{
+	float:left;
+	width:400px;
+	height:240px;
+	margin-left:3px;
+	margin-right:3px;
+	}
+.part_title{
+	width:389px;
+	height:30px;
+	background:url(../images/menu_body.png);
+	border:1px solid #D5D5D5;
+	font-size:18px;
+	padding-left:10px;
+	padding-top:5px;
+	}
+.part_title a{
+	font-size: 14px;
+	float:right;
+	margin-right:20px;
+	margin-top:4px;
+	}
+.part_text{
+	margin-top:2px;
+	width:399px;
+	height:350px;
+	border:1px solid #D5D5D5;
+	background:#ffffff;
+	}
+/*组建类型二*/
+.part2{
+	margin-left:3px;
+	float:left;
+	width:600px;
+	min-height:400px;
+	_height:expression((document.documentElement.clientHeight||document.body.clientHeight)>400?"400px":"");
+	}
+.part2_title{
+	width:779px;
+	height:30px;
+	background:url(../images/menu_body.png);
+	border:1px solid #D5D5D5;
+	font-size:18px;
+	padding-left:10px;
+	padding-top:5px;
+	}
+.part2_title a{
+	font-size: 14px;
+	float:right;
+	margin-right:20px;
+	margin-top:4px;
+	}
+.part2_text{
+	margin-top:2px;
+	width:769px;
+	min-height:200px;
+	_height:expression((document.documentElement.clientHeight||document.body.clientHeight)>200?"200px":"");
+	border:1px solid #D5D5D5;
+	background:#ffffff;
+	padding:10px;
+	}
+.part2_text div{
+	margin-left:20px;
+	margin-top:20px;
+	width:100%;
+	height:40px;
+	font-size:16px;
+	margin-bottom:20px;
+	min-height:40px;
+	_height:expression((document.documentElement.clientHeight||document.body.clientHeight)>40?"40px":"");
+	}
+.part2_text div input{
+	margin-left:50px;
+	height:40px;
+	font-size:15px;
+	padding-left:10px;
+	}
+.part2_text div div{
+	margin-left:135px;
+	margin-top:-20px;
+	}
+.part2_text div textarea{
+	border:1px solid #D5D5D5;
+	height:50px;
+	width:300px;
+	}
+
+.part2_text div a{
+	margin-left:30px;
+	height:40px;
+	font-size:15px;
+	padding-left:10px;
+	}		
+	
+/*登录简讯部分*/
+.short{
+	float:left;
+	margin-left:3px;
+	width:700px;
+	height:100px;
+	background:#fff;
+	border:1px solid #D5D5D5;
+	margin-bottom:10px;
+	}
+.short_title{
+	height:80px;
+	width:450px;
+	margin-left:10px;
+	margin-top:10px;
+	margin-bottom:10px;
+	float:left;
+	background: url(../images/login_success.png) no-repeat;
+	padding-left:20px;
+	}
+.short_text{
+	height:80px;
+	width:215px;
+	margin-left:10px;
+	margin-top:10px;
+	margin-bottom:10px;
+	float:left;
+	padding-left:20px;
+	}

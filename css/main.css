@@ -1,0 +1,62 @@
+﻿/*控制网页整体的页面效果*/
+.frame{
+	width:100%;
+	padding-left:3px;
+	padding-right:3px;
+	margin:auto;}
+
+/*网页顶部通用部分*/
+.top{
+	magin:0px;
+	width:100%;
+	background-image:url(../images/head_bg.png);
+	height:70px;
+	clear:both;
+}
+
+/*网页中间通用的部分*/
+.body{
+	clear:both;
+	magin:0px;
+	width:100%;
+	background-color:#F9F9F9;
+	min-height:700px;
+	_height:expression((document.documentElement.clientHeight||document.body.clientHeight)>534?"533px":""); 
+}
+/*网页底部通用的部分*/
+.foot{
+	margin:0px;
+	width:100%;
+	height:40px;
+	background-image:url(../images/foot_bg.png);
+	clear:both;
+	color:#ffffff;
+	position:relative;
+}
+/*控制网站默认的背景属性*/
+body{
+	background-color:#F9F9F9;
+	color: #333;
+	font-family:"微软雅黑";
+	font-size: 18px;
+	margin:0;
+	}
+/*清除所有ul中的以及li中的默认格式*/
+ul, ul li {
+    list-style-type:none;  
+}
+
+/*清除所有图片的边框默认属性*/
+img{
+border:none;
+}
+/*文字及内部板块css控制链接的显示效果*/
+a{cursor:pointer}
+a:link {color:#866f67; text-decoration:none;}
+a:visited {color: #1f3a87;text-decoration:none;}
+a:hover {color: #bc2931; text-decoration:underline;}
+a:active {color: #bc2931;}
+
+.pass_submit{
+	margin-right:5px; width:100px; float:right; border:0px; background:none; cursor:pointer; color:#F00
+}
